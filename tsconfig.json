@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "system",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "removeComments": false,
+        "noImplicitAny": false,
+        "watch": false,
+        "outDir": "dist/app"
+    },
+    "exclude": [
+        "node_modules",
+        "typings"
+    ],
+    "atom": {
+        "formatOnSave": true
+    }
+}

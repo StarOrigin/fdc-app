@@ -1,0 +1,37 @@
+{
+  "name": "eas2rest",
+  "version": "0.1.0",
+  "description": "Convert EAS WebService to RESTful",
+  "main": "main.js",
+  "scripts": {
+    "start": "node dist",
+    "test": "npm run lite",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings",
+    "postinstall": "typings install"
+  },
+  "author": "xxy1991",
+  "license": "Ms-RL",
+  "dependencies": {
+    "restify": "^4.0.4"
+  },
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-less": "^3.0.5",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "gulp-typescript": "^2.13.0",
+    "gulp-uglify": "^1.5.3",
+    "jshint": "^2.9.2",
+    "lite-server": "^2.2.0",
+    "merge": "^1.2.0",
+    "typescript": "^1.8.10",
+    "typings": "^0.7.12"
+  }
+}

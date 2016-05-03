@@ -1,7 +1,7 @@
 {
-  "name": "eas2rest",
+  "name": "fdc-app",
   "version": "0.1.0",
-  "description": "Convert EAS WebService to RESTful",
+  "description": "GLFDC-App",
   "main": "main.js",
   "scripts": {
     "start": "node dist",
@@ -15,7 +15,12 @@
   "author": "xxy1991",
   "license": "Ms-RL",
   "dependencies": {
-    "restify": "^4.0.4"
+    "angular2": "2.0.0-beta.17",
+    "systemjs": "0.19.27",
+    "es6-shim": "^0.35.0",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "5.0.0-beta.6",
+    "zone.js": "^0.6.12"
   },
   "devDependencies": {
     "concurrently": "^2.0.0",
@@ -28,6 +33,7 @@
     "gulp-sass": "^2.3.1",
     "gulp-typescript": "^2.13.0",
     "gulp-uglify": "^1.5.3",
+    "gulp-util": "^3.0.7",
     "jshint": "^2.9.2",
     "lite-server": "^2.2.0",
     "merge": "^1.2.0",
